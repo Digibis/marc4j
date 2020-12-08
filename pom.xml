@@ -303,5 +303,13 @@
             </build>
         </profile>
     </profiles>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/Digibis/marc4j-dgb</url>
+        </repository>
+    </distributionManagement>
 </project>
 
